@@ -122,13 +122,15 @@
         width: 100%;
     }
     .mid-book--now .input-box{
-        max-width: 100%;
+        visibility: hidden;
     }
     .mid-book--now>form i{
         display: none;
     }
     .mid-book--now>form input{
         flex-basis: 100%;
+        visibility: visible;
+        border: 2px solid black;
     }
     /* ! Book Now Section End */
     .mid-footer{
