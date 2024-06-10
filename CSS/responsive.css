@@ -1,0 +1,237 @@
+@media only screen and (min-width: 200px) and (max-width: 575px){
+    /* ! Header Section Start */   
+    header{
+        width: 100%;
+    }
+    nav{
+        max-width: 100%;
+        padding: 14px;
+    }
+    .nav-center{
+        display: none;
+    }
+    .nav-right .mobile-btn{
+        display: block;   
+    }
+    .btn1{
+        display: none;
+    }
+    /* ! Header Section End */
+    /* ! Hero Section Start */
+    .main-hero{
+        height: 100vh;
+        background: url(https://cyberroshan.github.io/Kerala-Plan-Tours.github.io/images/heroimage.webp) no-repeat top left fixed;
+        background-size: inherit;
+    }
+    .main-hero--2{
+        height: 100vh;
+    }
+    .mid-hero{
+        max-width: 100%;
+        padding: 20px;
+        flex-direction: column;
+    }
+    .hero-content{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .hero-content>h1{
+        font-size: 43px;
+        line-height: 52px;
+    }
+    .hero-content>p{
+        font-size: 19px;
+        margin-bottom: 20px;
+    }
+    .hero-form{
+        flex-basis: 100%;
+        margin: 30px 0px;
+    }
+    form>h3{
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    form>input{
+        margin-bottom: 10px;
+    }
+    /* ! Hero Section End */
+    /* ! Tour Packages Section Start */
+    .mid-tour--packages{
+        max-width: 100%;
+        padding: 0px 20px;
+    }
+    .package-tour--container{
+        flex-direction: column;
+    }
+    .package-tour--items{
+        flex-basis: 100%;
+    }
+    /* ! Tour Packages Section End */
+    /* ! About Kerala Section Start */
+    .mid-about--kerala{
+        max-width: 100%;
+        padding: 70px 20px;
+    }
+    .about-video>video{
+        width: 100%;
+    }
+    /* ! About Kerala Section End */
+    /* ! Our Benefit Section Start */
+    .mid-benefit{
+        max-width: 100%;
+        padding: 0px 20px;
+    }
+    .mid-benefit>ul{
+        flex-direction: column;
+    }
+    .mid-benefit>ul>li{
+        flex-basis: 100%;
+    }
+    /* ! Our Benefit Section End */
+    /* ! Testimonial Section Start */
+    .mid-testimonial{
+        max-width: 100%;
+        padding: 0px 20px;
+    }
+    .testimonial-container{
+        flex-direction: column;
+    }
+    .testimonial-items{
+        flex-basis: 100%;
+    }
+    /* ! Testimonial Section End */
+    /* ! Discount Section Start */
+    .mid-discount{
+        max-width: 100%;
+        padding: 40px 20px;
+    }
+    /* ! Discount Section End */
+    /* ! FAQs Section Start */
+    .mid-faq{
+        max-width: 100%;
+        padding: 0px 20px;
+    }
+    /* ! FAQs Section End */
+    /* ! Book Now Section Start */
+    .mid-book--now{
+        max-width: 100%;
+        padding: 0px 20px;
+    }
+    .mid-book--now>form{
+        width: 100%;
+    }
+    .mid-book--now .input-box{
+        max-width: 100%;
+    }
+    .mid-book--now>form i{
+        display: none;
+    }
+    .mid-book--now>form input{
+        flex-basis: 100%;
+    }
+    /* ! Book Now Section End */
+    .mid-footer{
+        max-width: 100%;
+        padding: 0px 10px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px){
+    /* ! Header Section Start */
+    header{
+        width: 100%;
+    }
+    nav{
+        max-width: 100%;
+        padding: 15px 10px;
+    }
+    .nav-center>ul{
+        gap: 20px;
+    }
+    /* ! Header Section End */
+    /* ! Hero Section Start */
+    .main-hero{
+        height: 100vh;
+        background: url(https://cyberroshan.github.io/Kerala-Plan-Tours.github.io/images/heroimage.webp) no-repeat top;
+        background-size: inherit;
+    }
+    .main-hero--2{
+        height: inherit;
+    }
+    .mid-hero{
+        max-width: 100%;
+        padding: 50px 20px;
+        flex-direction: column;
+    }
+    .hero-content{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .hero-form{
+        flex-basis: 100%;
+        margin-top: 40px;
+    }
+    /* ! Hero Section End */
+    /* ! Tour Packages Section Start */
+    .mid-tour--packages{
+        max-width: 100%;
+        margin: 0px auto 100px auto;
+        padding: 0px 20px;
+    }
+    .package-tour--items{
+        flex-basis: 47%;
+    }
+    /* ! Tour Packages Section End */
+    /* ! About Kerala Section Start */
+    .mid-about--kerala{
+        max-width: 100%;
+        padding: 70px 20px;
+    }
+    .about-video>video{
+        width: 60%;
+    }
+    /* ! About Kerala Section End */
+    /* ! Our Benefit Section Start */
+    .mid-benefit{
+        max-width: 100%;
+        padding: 0px 20px;
+    }
+    .mid-benefit>ul>li{
+        flex-basis: 48%;
+    }
+    /* ! Our Benefit Section End */
+    /* ! Testimonial Section Start */
+    .mid-testimonial{
+        max-width: 100%;
+        padding: 0px 20px;
+    }
+    /* ! Testimonial Section End */
+    /* ! Discount Section Start */
+    .mid-discount{
+        max-width: 100%;
+        padding: 70px 20px;
+    }
+    /* ! Discount Section End */
+    /* ! FAQs Section Start */
+    .mid-faq{
+        max-width: 100%;
+        padding: 0px 20px;
+    }
+    .mid-faq>ul>li{
+        margin-bottom: 20px;
+    }
+    /* ! FAQs Section End */
+    /* ! Book Now Section Start */
+    .mid-book--now{
+        max-width: 100%;
+        padding: 0px 20px;
+    }
+    /* ! Book Now Section End */
+    .mid-footer{
+        max-width: 100%;
+        padding: 0px 20px;
+    }
+}
+
+
